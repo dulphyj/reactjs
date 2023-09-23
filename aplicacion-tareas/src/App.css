@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  color: aliceblue;
+  background-color: rgb(1, 1, 20);
+  font-family: Lato, sans-serif;
+  margin-top: 40px;
+}
+
+h1 {
+  color: rgb(15, 12, 12);
+  font-size: 25px;
+  font-family: Roboto, sans-serif;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.free-logo-container {
+  width: 100%;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.free-logo {
+  width: 400px;
+  height: 50px;
+}
+
+.tareas-lista-principal {
+  width: 600px;
+  min-height: 500px;
+  background-color: rgb(148, 142, 137);
+  padding: 25px;
+  margin: 10px;
+  justify-content: center;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
